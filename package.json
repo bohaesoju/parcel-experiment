@@ -1,0 +1,35 @@
+{
+  "name": "parcel-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bohaesoju/parcel-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bohaesoju/parcel-experiment/issues"
+  },
+  "homepage": "https://github.com/bohaesoju/parcel-experiment#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "global": "^4.3.2",
+    "node-sass": "^4.11.0",
+    "postcss-modules": "^1.4.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "typography": "^0.16.18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "babel-core": "^6.26.3",
+    "cssnano": "^4.1.9"
+  }
+}
